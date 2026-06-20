@@ -352,31 +352,37 @@ z-index:9999;
 
 /* BUTTON STYLE */
 .float-btn{
-width:50px;
-height:50px;
 display:flex;
 align-items:center;
-justify-content:center;
-border-radius:50%;
+gap:10px;
+padding:12px 16px;
+border-radius:30px;
 color:#fff;
-font-size:20px;
+font-size:14px;
+font-weight:bold;
+text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,0.3);
 transition:0.3s;
+width:auto;   /* IMPORTANT */
 }
 
-/* CALL BUTTON */
+.float-btn i{
+font-size:18px;
+}
+
+/* CALL */
 .float-btn.call{
 background:#007bff;
 }
 
-/* EMAIL BUTTON */
+/* EMAIL */
 .float-btn.email{
 background:#ea4335;
 }
 
-/* HOVER EFFECT */
+/* HOVER */
 .float-btn:hover{
-transform:scale(1.1);
+transform:scale(1.05);
 }
 
 .whatsapp-float:hover{

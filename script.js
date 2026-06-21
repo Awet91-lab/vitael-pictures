@@ -51,3 +51,15 @@ setTimeout(() => {
 toast.classList.remove("show");
 }, 2500);
 }
+
+const menuToggle =
+document.querySelector(".menu-toggle");
+
+const mobileNav =
+document.getElementById("mobileNav");
+
+menuToggle.addEventListener("click",()=>{
+
+mobileNav.classList.toggle("active");
+
+});

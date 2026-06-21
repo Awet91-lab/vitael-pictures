@@ -63,3 +63,11 @@ menuToggle.addEventListener("click",()=>{
 mobileNav.classList.toggle("active");
 
 });
+
+function toggleMenu(){
+
+document
+.getElementById("nav")
+.classList.toggle("show");
+
+}
